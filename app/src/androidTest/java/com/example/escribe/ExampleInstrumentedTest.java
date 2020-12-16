@@ -1,4 +1,4 @@
-package com.example.simpletodo;
+package com.example.escribe;
 
 import android.content.Context;
 

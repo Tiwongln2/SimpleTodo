@@ -1,4 +1,4 @@
-package com.example.simpletodo;
+package com.example.escribe;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
