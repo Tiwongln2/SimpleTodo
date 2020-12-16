@@ -1,22 +1,22 @@
 # Project 1 - "eScribe"
 
-** eScribe ** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+eScribe is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
-Submitted by: **Your Name Here**
+Submitted by: Tiwong Nance Jr.
 
-Time spent: **X** hours spent in total
+Time spent: 2 hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [ ] User can **view a list of todo items**
-* [ ] User can **successfully add and remove items** from the todo list
-* [ ] User's **list of items persisted** upon modification and and retrieved properly on app restart
+* [x] User can **view a list of todo items**
+* [x] User can **successfully add and remove items** from the todo list
+* [x] User's **list of items persisted** upon modification and and retrieved properly on app restart
 
 The following **optional** features are implemented:
 
-* [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
+* [x] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list
 
 The following **additional** features are implemented:
 
@@ -34,9 +34,12 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+- I encountered an error in which the AVD emulator would crash if I tried to attempt to delete items from the list when it's empty. I mitigated this error by
+creating another constructor in "ItemsAdapter.java" that only requires a list of items (which can be null). This enables (come back after testing out error again).
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2020 Tiwong Nance Jr.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
