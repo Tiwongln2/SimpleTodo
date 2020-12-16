@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void OnItemClicked(int position) {
                 Log.e("MainActivity", "Single click at position " + position);
-                // create the new activity
+                // Create the new activity
                 Intent i = new Intent(MainActivity.this, EditActivity.class);
                 // Passes new list item to activity
                 i.putExtra(KEY_ITEM_TEXT, items.get(position));
